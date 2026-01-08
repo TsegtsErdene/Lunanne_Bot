@@ -2,12 +2,12 @@
   "name": "lunanne-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "node ./src/index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "start": "node ./src/index.js", 
     "dev": "nodemon ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\""
   },
   "keywords": [],
   "author": "",
