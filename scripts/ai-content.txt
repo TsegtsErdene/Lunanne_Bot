@@ -1,0 +1,330 @@
+Гайхалтай 👍
+Би таны өгсөн forex.pdf–ийг (О.Мөнхжингийн MOT Wealth Academy ном) өдрөөр биш, цэвэр агуулгаар задлаад, Discord AI Trainer Bot-д шууд ашиглаж болох “lesson map” болгож бэлдлээ. Доорх бүтэц нь номын бодит агуулга, дараалал, логик урсгалыг барьсан бөгөөд beginner → intermediate шилжилтэд тохиромжтой. (Энэ задлал нь таны оруулсан PDF-ийн хэсгүүд дээр суурилсан). 
+
+forex
+
+forex
+
+forex
+
+forex
+
+forex
+
+forex
+
+forex
+
+forex
+
+📘 COURSE MAP — Forex Fundamentals (Content-based)
+MODULE 1 — Forex Basics
+
+(Суурь ойлголтууд)
+
+lesson_id	Lesson title
+forex_intro	Форекс гэж юу вэ?
+market_participants	Форекс зах зээлийн оролцогчид
+trading_sessions	Форекс зах зээлийн арилжааны цаг
+why_forex	Яагаад Форекс гэж? Давуу ба сул тал
+MODULE 2 — Currency Pairs & Quotes
+
+(Зах зээлийн механик)
+
+lesson_id	Lesson title
+currency_pairs	Валютын хослол гэж юу вэ?
+major_pairs	Major, Minor, Exotic хослолууд
+forex_quote	Forex quote-г хэрхэн унших вэ?
+base_quote_currency	Base & Quote currency
+MODULE 3 — Trade Mechanics
+
+(Арилжаа яаж хийгддэг вэ?)
+
+lesson_id	Lesson title
+buy_sell	BUY & SELL гэж юу вэ?
+order_execution	Арилжаа хэрхэн биелдэг вэ?
+spread	Spread — Чимээгүй үхэл
+pip	Pip гэж юу вэ?
+lot	Lot гэж юу вэ?
+MODULE 4 — Broker & Platform
+
+(Орчин, хэрэгсэл)
+
+lesson_id	Lesson title
+what_is_broker	Форекс брокер гэж юу вэ?
+choosing_broker	Брокер хэрхэн зөв сонгох вэ?
+demo_account	Demo vs Real account
+trading_platform	Trading платформын ойлголт
+MODULE 5 — Risk Management (ХАМГИЙН ЧУХАЛ)
+
+(Эндээс жинхэнэ трэйдер эхэлдэг)
+
+lesson_id	Lesson title
+risk_basics	Эрсдэл гэж юу вэ?
+leverage	Leverage — шинэ трэйдерийн дайсан
+margin	Margin гэж юу вэ?
+margin_call	Margin Call & Stop Out
+position_sizing	Position sizing
+risk_reward	Risk : Reward харьцаа
+MODULE 6 — Advanced Trade Management
+
+(Арилжааг удирдах)
+
+lesson_id	Lesson title
+stop_loss	Stop Loss гэж юу вэ?
+take_profit	Take Profit
+trailing_stop	Trailing Stop
+scaling_out	Scale out (partial close)
+MODULE 7 — Market Correlations & Instruments
+
+(Зах зээлийн уялдаа)
+
+lesson_id	Lesson title
+intermarket	Зах зээл хоорондын хамаарал
+oil_usd	Газрын тос & USD/CAD
+gold_usd	Алт & USD
+indices_forex	Индекс ба Forex
+MODULE 8 — Fundamentals & News
+
+(Мэдээ ба суурь анализ)
+
+lesson_id	Lesson title
+forex_news	Forex news гэж юу вэ?
+economic_calendar	Economic calendar унших
+interest_rates	Interest rate-ийн нөлөө
+central_banks	Төв банкуудын үүрэг
+MODULE 9 — Technical Tools (Intro)
+
+(Техникийн үндэс)
+
+lesson_id	Lesson title
+support_resistance	Support & Resistance
+fibonacci_retracement	Fibonacci Retracement
+fibonacci_extension	Fibonacci Extension
+MODULE 10 — Trading Psychology & Journal
+
+(Сэтгэл зүй, дадал)
+
+lesson_id	Lesson title
+trading_psychology	Арилжааны сэтгэл зүй
+discipline	Discipline & Consistency
+trading_journal	Арилжааны журнал хөтлөх
+review_trades	Арилжаагаа дүгнэх
+🧠 ЯАГААД ЭНЭ БҮТЭЦ САЙН БЭ?
+
+✅ Номын байгалийн дарааллыг барьсан
+
+✅ Discord-д short lesson + quiz хийхэд тохиромжтой
+
+✅ /lesson start pip мэт content-based command боломжтой
+
+✅ Supabase vector metadata (lesson_id)–тай төгс таарна
+
+✅ Ирээдүйд premium module нэмж тэлэхэд амархан
+
+🔗 BOT-Д ХЭРХЭН АШИГЛАХ ВЭ?
+/lesson start pip
+
+→ lesson_id = pip
+→ Supabase vector → pip + lot + quote хэсгүүд
+→ AI тайлбар + жишээ
+
+/progress
+✔ Currency Pairs: 4 / 4
+✔ Risk Management: 2 / 6
+⏳ Psychology: 0 / 4
+
+🚀 ДАРААГИЙН АЛХАМ (СОНГО)
+
+Одоо lesson map бэлэн боллоо. Дараахыг хийвэл бот чинь бүрэн амилна:
+
+B) forex.pdf → content-based ingestion script (lesson_id автоматаар онооно)
+C) /lesson start <lesson_id> → Supabase vector RAG код
+D) Lesson бүрийн AI prompt template (teaching + quiz)
+
+👉 Аль дээр нь шууд оръё?
+
+Sources
+D
+
+Төгс 👍
+Тэгвэл доор би таны forex.pdf сургалтын материалд яг таарах, Discord AI Trainer Bot-д шууд ашиглахад бэлэн
+👉 Lesson teaching prompt + Quiz prompt + Safety / style rules-ийг production түвшинд бэлдлээ.
+
+Эдгээр prompt-уудын гол зорилго нь:
+
+AI багш шиг заах
+
+Монгол хэлээр энгийн, бодит жишээтэй
+
+Forex.pdf-ийн агуулгаас хазайхгүй
+
+Анхан шатныханд аюулгүй (risk-aware) байх
+
+(Доорх бүх prompt-ууд таны оруулсан forex.pdf номын агуулгад тулгуурласан). 
+
+forex
+
+forex
+
+forex
+
+forex
+
+forex
+
+🧠 1️⃣ GLOBAL SYSTEM PROMPT (BOT-ын “зан чанар”)
+
+👉 Энийг 1 удаа system prompt болгон тохируулна
+
+You are a Forex AI Trainer teaching beginners in Mongolian.
+You must strictly rely on the provided training material context.
+You explain concepts simply, step by step, using practical examples.
+You always emphasize risk management, demo trading, and discipline.
+You never give financial advice or promises of profit.
+Your tone is calm, friendly, and educational.
+
+📘 2️⃣ LESSON TEACHING PROMPT ( /lesson start <lesson_id> )
+
+👉 Supabase vector-оос ирсэн context-ийг ашиглана
+
+You are teaching a Forex lesson to a beginner.
+
+Lesson title: {{lesson_title}}
+Module: {{module_name}}
+
+Training material (context):
+{{context}}
+
+Teaching rules:
+- Explain in simple Mongolian
+- Use short paragraphs
+- Include 1 real Forex example
+- Avoid complex jargon
+- End with 2 key takeaways
+- Gently remind about risk and demo trading
+
+Now teach this lesson.
+
+🔹 AI-ийн гаргах формат (жишээ)
+📘 Pip гэж юу вэ?
+
+Pip гэдэг нь валютын ханшийн хамгийн бага өөрчлөлт юм...
+
+📌 Жишээ:
+EUR/USD 1.1000 → 1.1001 бол 1 pip хөдөлсөн гэсэн үг.
+
+✅ Гол санаа:
+• Pip нь ашгийг болон алдагдлыг хэмжих үндэс
+• Эхлээд demo данс дээр pip-ийг ойлгож сурах хэрэгтэй
+
+🧪 3️⃣ QUIZ GENERATION PROMPT ( /quiz start <lesson_id> )
+
+👉 Асуултыг ChatGPT өөрөө үүсгэнэ, гэхдээ хяналттай
+
+Create a beginner-level Forex quiz in Mongolian.
+
+Topic: {{lesson_title}}
+
+Rules:
+- Exactly 3 questions
+- Multiple choice (A, B, C, D)
+- Only ONE correct answer
+- Simple wording
+- Based only on the provided context
+- No trick questions
+
+Return ONLY valid JSON in this format:
+[
+  {
+    "question": "...",
+    "options": ["A ...", "B ...", "C ...", "D ..."],
+    "answer": "A"
+  }
+]
+
+
+👉 Яагаад JSON?
+
+Discord button quiz
+
+Auto grading
+
+XP calculation
+
+🧪 4️⃣ QUIZ FEEDBACK PROMPT (Хариулт өгсний дараа)
+You are giving feedback to a Forex student.
+
+Question: {{question}}
+Correct answer: {{correct}}
+User answer: {{user_answer}}
+
+Rules:
+- Be encouraging
+- Briefly explain why the answer is correct or incorrect
+- Do NOT shame the user
+- Add 1 learning tip
+
+Respond in Mongolian.
+
+❓ 5️⃣ /ask COMMAND — RAG Q&A PROMPT
+
+👉 Forex.pdf-ээс л хариулна
+
+You are answering a Forex question using training material only.
+
+Training material:
+{{context}}
+
+Question:
+{{question}}
+
+Rules:
+- Answer only using the material
+- If not found, say you cannot find it in the course
+- Explain simply
+- Use 1 example if possible
+- Add a short risk reminder if relevant
+
+Answer in Mongolian.
+
+❌ Хэрэв контекст олдохгүй бол:
+Энэ асуулт сургалтын материалд тодорхой дурдагдаагүй байна.
+Та өөр ойлголтоос асууж үзэж болно.
+
+⚠️ 6️⃣ RISK & SAFETY ENFORCEMENT PROMPT (ДАЛД)
+
+👉 Энэ нь system + user prompt-д автоматаар хавсарна
+
+Never encourage real-money trading for beginners.
+Always recommend demo accounts.
+Never promise profit.
+Avoid words like "sure profit", "guaranteed", "easy money".
+
+🧩 7️⃣ PROMPT-УУД ЯАЖ КОДОНД ОРУУЛАХ ВЭ?
+const prompt = `
+${SYSTEM_PROMPT}
+
+${LESSON_PROMPT.replace("{{context}}", context)}
+`;
+
+
+👉 Та одоо:
+
+Lesson
+
+Quiz
+
+Ask
+
+Feedback
+
+бүгдийг нэг стандарт багшийн логикоор удирдаж байна.
+
+🎯 ЭНЭ PROMPT СЕТ ЧИНИЙ БОТЫГ ЯМАР БОЛГОЖ БАЙНА ВЭ?
+
+✅ Жинхэнэ багш шиг
+✅ Монгол хэлд ээлтэй
+✅ Forex.pdf-ээс хазайхгүй
+✅ Эрсдэл ухамсарласан
+✅ Discord-д төгс таарсан

@@ -1,0 +1,25 @@
+Forex Basics
+├─ Forex гэж юу вэ?
+├─ Зах зээлийн оролцогчид
+├─ Арилжааны цаг
+
+Market Mechanics
+├─ Валютын хос
+├─ Bid / Ask
+├─ Spread
+├─ Pip / Lot
+
+Trading Operations
+├─ Buy / Sell
+├─ Order types
+├─ Stop Loss / Take Profit
+
+Risk Management
+├─ Risk гэж юу вэ
+├─ Position sizing
+├─ Leverage / Margin
+
+Psychology & Discipline
+├─ Emotion
+├─ Overtrading
+├─ Trading plan
